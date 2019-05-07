@@ -14,6 +14,6 @@ public class App {
 			 if(generatorA.getParameterA()<<24 == generatorB.getParameterB()<<24)
 				 result++;
 		 }
-		 System.out.println("Answer is: " + result);
+		 System.out.println(result);
 		}
 }
