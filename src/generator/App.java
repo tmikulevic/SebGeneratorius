@@ -11,8 +11,6 @@ public class App {
 		 for (int i = 0; i < Constants.iterations; i++) {
 			 generatorA.calculateIteration();
 			 generatorB.calculateIteration();
-			 //System.out.println("A: " + generatorA.getParameterA());
-			 //System.out.println("B: " + generatorB.getParameterB());
 			 if(generatorA.getParameterA()<<24 == generatorB.getParameterB()<<24)
 				 result++;
 		 }
